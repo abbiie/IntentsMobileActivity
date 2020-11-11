@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
         }else{
-            val text = "ERROR!: Too many task"
+            val text = "ERROR!: Too many task!!"
             val duration = Toast.LENGTH_LONG
             val toast = Toast.makeText(applicationContext, text, duration)
             toast.show()
